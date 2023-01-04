@@ -5,7 +5,7 @@ WPF Login App To Authonticate User.
 
 ## How To Run
  
- - One solution added two project one WPF Application and .Net Core web API.
+ - One solution added two project one WPF Application(LoginPage) and .Net Core web API(LoginApp).
  - Open In Visual Studio - > LoginApp -> Set as startup Project - > ctrl + F5
  - Click on LoginPage -> Set as startup Project -> F5
  - Ready for Use.
