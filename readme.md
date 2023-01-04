@@ -10,6 +10,9 @@ WPF Login App To Authonticate User.
  - Click on LoginPage -> Set as startup Project -> F5
  - Ready for Use.
  
+## Note
+ - as per project location need to set appsetting.json file path into below Code location.
+  LoginApp->BusinessLayer -> LoginBL.cs - > line no 33.
 ## Info
  
 -  Inside Event Viewer Log will create name of "SomeApi" after two invalid attempt and log message will be  “Unauthorized request”
