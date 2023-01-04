@@ -24,11 +24,11 @@ WPF Login App To Authonticate User.
 
 ## Used Packages
 
- Microsoft.Extensions.Logging.EventLog
- Newtonsoft.Json
- Microsoft.Toolkit.Uwp.Notifications
- System.Net.Http
- Microsoft.AspNet.WebApi.Client
+ - Microsoft.Extensions.Logging.EventLog
+ - Newtonsoft.Json
+ - Microsoft.Toolkit.Uwp.Notifications
+ - System.Net.Http
+ - Microsoft.AspNet.WebApi.Client
  
  ## Postman Curl To Check API
 
