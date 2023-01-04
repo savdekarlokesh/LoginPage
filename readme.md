@@ -19,8 +19,8 @@ WPF Login App To Authonticate User.
  
 ## Technologies Used
 
- ##### WPF
- ##### .Net Core web API
+ - WPF
+ - .Net Core web API
 
 ## Used Packages
 
