@@ -18,6 +18,8 @@ namespace LoginPage
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+        try
+            {
             if (txtUserName.Text.ToString().Trim() != "" && txtPassword.Text.ToString().Trim() != "")
             {
                 //Used HttpClient to call rest api
@@ -52,6 +54,12 @@ namespace LoginPage
                 new ToastContentBuilder()
                     .AddText("Please enter the password")
                     .Show();
+            }
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
 
