@@ -26,6 +26,8 @@ namespace LoginApp.Controllers
         [Route("login")]
         public string Login(User user)
         {
+        try
+            {
             string message = string.Empty;
             //using below statement check username or password.
             var validate = LoginBL.Userloginvalues().Where(m => m.UserName == user.UserName && m.Password == user.Password).FirstOrDefault();
@@ -60,6 +62,12 @@ namespace LoginApp.Controllers
                 message = "Invalid credentials";
             }
             return message;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
       
